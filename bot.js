@@ -1,6 +1,6 @@
 var TelegramBot= require('node-telegram-bot-api')
 
-token="YOUR_TELEGRAM_BOT_TOKEN"  //token obtained from bot father
+token="6887191366:AAFN5-fcSQon6QVlGGff-u18jOZag4odwuk"  //token obtained from bot father
 var bot= new TelegramBot(token, {polling:true});
 bot.on("polling_error", (err) => console.log(err));
 
